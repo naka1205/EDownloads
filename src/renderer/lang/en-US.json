@@ -1,0 +1,117 @@
+{
+  "main": {
+    "downloading": "Downloading",
+    "finished": "Finished",
+    "baiduwp": "Yunpan",
+    "settings": "Settings"
+  },
+  "handle": {
+    "close": "Cancel",
+    "confirm": "Confirm",
+    "success": "successfull",
+    "error": "fail"
+  },
+  "downloading": {
+    "handleAllPause": "Pause All",
+    "handleAllClose": "Cancel All",
+    "addTask": "New Task",
+    "ftp": "FTP",
+    "torrent": "BitTorrent",
+    "magnet": "Magnet",
+    "thunder": "Thunder",
+    "baidu": "BaiduPan"
+  },
+  "status": {
+    "empty": "Empty",
+    "speed": "OnRequest",
+    "active": "Downloading",
+    "waiting": "Waiting",
+    "paused": "Paused",
+    "error": "Error",
+    "complete": "Completed",
+    "removed": "Removed"
+  },
+  "remaining": {
+    "prefix": "Remaining",
+    "gt1d": "> 1 day",
+    "hour": "h",
+    "minute": "m",
+    "second": "s"
+  },
+  "task": {
+    "title": "New Task",
+    "ftpTips": "Please enter the url",
+    "ftpError": "Url error",
+    "baiduTips": "Please enter the sharing url",
+    "codeTips": "code",
+    "shareError": "Unable to parse",
+    "torrentTips": "Please select file",
+    "handleFile": "Select File",
+    "size": "Size"
+  },
+  "baiduwp": {
+    "username": "Username",
+    "total": "Total",
+    "used": "Used",
+    "handleBack": "Back",
+    "handleOpen": "Open",
+    "handleDownload": "Download",
+    "handleSave": "Save",
+    "handleTransfer": "Transfer",
+    "transfer": "Transfer",
+    "select": "Please select a directory to save",
+    "type": "Type",
+    "name": "Name",
+    "size": "Size",
+    "operation": "Operation"
+  },
+  "torrent": {
+    "handleBack": "Back",
+    "handleOpen": "Open",
+    "handleDownload": "Download",
+    "handleDelete": "Delete",
+    "handleSave": "Save",
+    "select": "Please select a directory to save",
+    "type": "Type",
+    "name": "Name",
+    "size": "Size",
+    "operation": "Operation"
+  },
+  "finished": {
+    "handleCloseAll": "Remove All",
+    "confirm": "Confirm",
+    "cancel": "Delete tasks only",
+    "confirmInfo": "Download task and local file deleted",
+    "cancelInfo": "Download task deleted",
+    "confirmTitle": "Confirmation",
+    "confirmTips": "Are you sure you want to delete the downloaded local file"
+  },
+  "popconfirm": {
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "title": "Exit account?"
+  },
+  "settings": {
+    "lang": "Language",
+    "langTips": "Please select software language",
+    "folder": "SavePath",
+    "folderTips": "Please select the path to save the file download",
+    "handleFolder": "ChoosePath",
+    "handleReset": "Reset",
+    "handleSave": "Save",
+    "rpc": "RPC",
+    "host": "Host",
+    "port": "Port",
+    "token": "Token",
+    "encryption": "SSL / TLS",
+    "status": "Status",
+    "connected": "Connected",
+    "disconnected": "Not Connected",
+    "download": "Download",
+    "directory": "Directory",
+    "choose": "Choose",
+    "maxDownloading": "Max Downloading",
+    "downloadLimit": "Download Limit",
+    "uploadLimit": "Upload Limit"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "main": {
+    "downloading": "正在下载",
+    "finished": "下载完成",
+    "baiduwp": "我的网盘",
+    "settings": "系统设置"
+  },
+  "handle": {
+    "close": "取消",
+    "confirm": "确认",
+    "success": "操作成功",
+    "error": "操作失败"
+  },
+  "downloading": {
+    "handleAllPause": "全部暂停",
+    "handleAllClose": "全部取消",
+    "addTask": "新建任务",
+    "ftp": "FTP",
+    "torrent": "BT种子",
+    "magnet": "磁力链接",
+    "thunder": "迅雷链接",
+    "baidu": "百度网盘"
+  },
+  "status": {
+    "empty": "暂无数据",
+    "speed": "请求下载中",
+    "active": "下载中",
+    "waiting": "等待下载",
+    "paused": "已暂停",
+    "error": "任务出错",
+    "complete": "已完成",
+    "removed": "已删除"
+  },
+  "remaining": {
+    "prefix": "剩余",
+    "gt1d": "超过一天",
+    "hour": "时",
+    "minute": "分",
+    "second": "秒"
+  },
+  "task": {
+    "title": "新建任务",
+    "ftpTips": "请输入链接地址",
+    "ftpError": "链接错误",
+    "baiduTips": "请输入分享链接地址",
+    "codeTips": "提取码",
+    "shareError": "无法解析",
+    "torrentTips": "请选择种子文件",
+    "handleFile": "选择文件"
+  },
+  "baiduwp": {
+    "username": "用户昵称",
+    "total": "网盘容量",
+    "used": "已用容量",
+    "handleBack": "返回",
+    "handleOpen": "打开",
+    "handleDownload": "下载",
+    "handleDelete": "删除",
+    "handleSave": "保存",
+    "handleTransfer": "转存",
+    "transfer": "转存",
+    "select": "请选择保存目录",
+    "type": "类型",
+    "name": "名称",
+    "size": "大小",
+    "operation": "操作"
+  },
+  "torrent": {
+    "handleBack": "返回",
+    "handleOpen": "打开",
+    "handleDownload": "下载",
+    "handleDelete": "删除",
+    "handleSave": "保存",
+    "select": "请选择保存目录",
+    "type": "类型",
+    "name": "名称",
+    "size": "大小",
+    "operation": "操作"
+  },
+  "finished": {
+    "handleCloseAll": "全部移除",
+    "confirm": "确认删除",
+    "cancel": "仅删除任务",
+    "confirmInfo": "已删除下载任务与本地文件",
+    "cancelInfo": "已删除下载任务",
+    "confirmTitle": "确认信息",
+    "confirmTips": "请确认是否删除下载的本地文件"
+  },
+  "popconfirm": {
+    "confirm": "好的",
+    "cancel": "不用了",
+    "title": "是否退出账号？"
+  },
+  "settings": {
+    "lang": "语言设置",
+    "langTips": "请选择软件语言",
+    "folder": "保存路径",
+    "folderTips": "请选文件下载的保存路径",
+    "token": "百度授权",
+    "tokenTips": "登录后获取百度授权",
+    "handleFolder": "选择路径",
+    "handleReset": "重置",
+    "handleSave": "保存"
+  }
+}
