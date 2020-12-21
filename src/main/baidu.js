@@ -36,18 +36,6 @@ class Baidu {
         app.store.set('token',app.token)
         app.main.win.webContents.send('login',app.token.access)
         return true
-        // this.token(code).then((response) =>{
-
-        //     app.token = {
-        //         access : response.access_token,
-        //         refresh : response.refresh_token,
-        //     }
-
-        //     app.store.set('token',app.token)
-        //     app.main.win.webContents.send('login',app.token.access)
-        // }).catch(error => {
-        //     console.log('login error:',error)
-        // })
     }
 
     async link(fsidlist,name){
@@ -120,12 +108,6 @@ class Baidu {
                 reject(err)
             });
         })
-    }
-
-    token(code){
-        let api = 'https://openapi.baidu.com/oauth/2.0/token?grant_type=authorization_code&redirect_uri=oob&code=' + code
-        api += '&client_secret=' + this.client_secret + '&client_id=' + this.client_id 
-        return this.request('GET',api)
     }
 
     info(){
